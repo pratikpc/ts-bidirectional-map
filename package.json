@@ -1,0 +1,31 @@
+{
+  "name": "ts-bidirectional-map",
+  "version": "1.0.2",
+  "description": "A BiDirectional Map Created In TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node ./dist/test.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "map",
+    "mapper",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pratikpc/ts-bidirectional-map"
+  },
+  "author": "Pratik Chowdhury (pratikc@live.co.uk)",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/tape": "^4.13.0",
+    "tape": "^5.0.1"
+  }
+}
